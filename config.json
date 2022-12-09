@@ -5,5 +5,6 @@
     "SERVER_ID": "ID",
     "LOG_CHANNEL": "ID",
     "ROLE_NAME": "ROLE NAME",
-    "PASSWORD": "SOMETHING COOL AND PRIVAT"
+    "PASSWORD": "SOMETHING COOL AND PRIVAT",
+    "REDIRECT_URL":"http://yourdomain.com:8060/auth"
 }
