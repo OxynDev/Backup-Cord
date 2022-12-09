@@ -4,6 +4,12 @@ Easy to setup discord bot for restoring members
 
 Made By oxyn <3
 
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup1.png)
+
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup2.png)
+
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup3.png)
+
 # Setup (Windows server)
 
  Reinstall python libs
@@ -12,8 +18,7 @@ pip uninstall discord.py
 pip install --force-reinstall discord.py-message-components
 ```
  Open config.json
-
- ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/config-1.png)
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/config-1.png)
 
 Go to discord developers portal and create bot on new discord alt account [Discord Developers Applications](https://discord.com/developers/applications).
 
