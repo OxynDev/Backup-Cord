@@ -18,6 +18,7 @@ pip uninstall discord.py
 pip install --force-reinstall discord.py-message-components
 ```
  Open config.json
+ 
 ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/config-1.png)
 
 Go to discord developers portal and create bot on new discord alt account [Discord Developers Applications](https://discord.com/developers/applications).
