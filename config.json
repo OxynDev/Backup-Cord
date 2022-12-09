@@ -1,0 +1,9 @@
+{
+    "BOT_TOKEN": "TOKEN",
+    "CLIENT_SEC": "SEC",
+    "CLIENT_ID": "ID",
+    "SERVER_ID": "ID",
+    "LOG_CHANNEL": "ID",
+    "ROLE_NAME": "ROLE NAME",
+    "PASSWORD": "SOMETHING COOL AND PRIVAT"
+}
