@@ -4,12 +4,6 @@ Easy to setup discord bot for restoring members
 
 Made By oxyn <3
 
-![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup1.png)
-
-![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup2.png)
-
-![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup3.png)
-
 # Setup (Windows server)
 
  Reinstall python libs
@@ -73,3 +67,9 @@ Run discord bot and install all other libs
 
 ---
 ### Question or problem? write dm oxyn#3520
+
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup1.png)
+
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup2.png)
+
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/backup3.png)
