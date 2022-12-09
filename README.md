@@ -6,12 +6,12 @@ Made By oxyn <3
 
 # Setup (Windows server)
 
-#### Reinstall python libs
+ Reinstall python libs
 ```bash
 pip uninstall discord.py
 pip install --force-reinstall discord.py-message-components
 ```
-#### Open config.json
+ Open config.json
 ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/config-1.png)
 
 Go to discord developers portal and create bot on new discord alt account [Discord Developers Applications](https://discord.com/developers/applications).
@@ -26,11 +26,11 @@ Go to discord developers portal and create bot on new discord alt account [Disco
 ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/discord-dev-2.png)
 
 
-####Do this shit
+Do this shit
 
 ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/discord-dev-1.png)
 
-####Invite Bot to your server
+Invite Bot to your server
 
 - Copy server id and put in SERVER_ID
 - Create channel for logs, copy channel id and put in LOG_CHANNEL
@@ -39,7 +39,8 @@ Go to discord developers portal and create bot on new discord alt account [Disco
 
 Download [XAMPP](https://www.apachefriends.org/pl/download.html)
  ---
-##### Now we need create database:
+ Now we need create database
+ 
 Open XAMPP and run  apache and mysql server
 
 ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/xampp-1.png)
@@ -54,7 +55,7 @@ Open XAMPP and run  apache and mysql server
 
 ![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/phpma-2.png)
 
-####Run discord bot and install all other libs
+Run discord bot and install all other libs
 ---
 ### Commands
 - `.message`
