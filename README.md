@@ -38,7 +38,7 @@ Invite Bot to your server
 - Create role for verified members and put role name in ROLE_NAME
 
 
-Download [XAMPP](https://www.apachefriends.org/pl/download.html)
+Download [XAMPP](https://www.apachefriends.org/download.html)
  ---
  Now we need create database
  
