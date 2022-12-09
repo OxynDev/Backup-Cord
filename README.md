@@ -2,6 +2,9 @@
 
 Easy to setup discord bot for restoring members
 
+```python
+Made By oxyn <3```
+
 # Setup (Windows server)
 
 #### Reinstall python libs
