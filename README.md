@@ -2,8 +2,7 @@
 
 Easy to setup discord bot for restoring members
 
-```python
-Made By oxyn <3```
+Made By oxyn <3
 
 # Setup (Windows server)
 
@@ -21,6 +20,11 @@ Go to discord developers portal and create bot on new discord alt account [Disco
 - Copy client id and put in CLIENT_ID
 - Copy client secret and put in CLIENT_SEC
 - Create secret password and put in PASSWORD (Password for member restore command)
+- Copy server ip or domain and add `:8060/auth` (fe: http://something.wtf:8060/auth) put in REDIRECT_URL
+- Add your url to Redirects on discord dev panel
+
+![](https://raw.githubusercontent.com/OxynDev/Backup-Cord/main/temp/discord-dev-2.png)
+
 
 ####Do this shit
 
