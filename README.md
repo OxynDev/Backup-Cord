@@ -29,6 +29,7 @@ Made By oxyn <3
  - role permissions ✅
  - emoi ❌
  - server settings ❌
+ - voice channel coppy ❌
  - category and channel permissions ❌
 
 #### Bot:
