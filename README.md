@@ -17,7 +17,8 @@ Made By oxyn <3
  Command to restore server
 
 
-To do (server backup):
+
+### To do (server backup):
  - roles ✅
  - channels ✅
  - categories ✅
