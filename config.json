@@ -6,7 +6,7 @@
     "LOG_CHANNEL": "ID",
     "ROLE_NAME": "ROLE NAME",
     "PASSWORD": "SOMETHING COOL AND PRIVAT",
-    "REDIRECT_URL":"http://yourdomain.com:8060/auth",
+    "REDIRECT_URL":"http://yourdomain.com:80/auth",
     "BACKUP_EVERY_SEC": 86400,
     "BACKUP_MESSAGE_COUNT": 5
 }
