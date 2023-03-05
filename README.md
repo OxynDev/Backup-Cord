@@ -26,4 +26,4 @@ To do (server backup):
  - role permissions ✅
  - emoi ❌
  - server settings ❌
- - - category and channel permissions ❌
+ - category and channel permissions ❌
