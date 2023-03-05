@@ -1,6 +1,7 @@
 # Backup Cord
 
 Easy to setup discord bot.
+
 Features:
  - Member backup
  - server backup
