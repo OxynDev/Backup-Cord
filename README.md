@@ -1,7 +1,10 @@
 # Backup Cord
 
-Easy to setup discord bot for restoring members and backuping server
-
+Easy to setup discord bot.
+Features:
+ - Member backup
+ - server backup
+ 
 Made By oxyn <3
 
 
