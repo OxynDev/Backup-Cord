@@ -1,12 +1,14 @@
 # Backup Cord
 
+Made By oxyn <3
+
 Easy to setup discord bot.
 
 Features:
  - Member backup
  - server backup
  
-Made By oxyn <3
+
 
 
 ## Commands
