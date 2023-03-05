@@ -18,7 +18,9 @@ Made By oxyn <3
 
 
 
-### To do (server backup):
+### To do:
+
+## Server backup:
  - roles ✅
  - channels ✅
  - categories ✅
@@ -28,3 +30,10 @@ Made By oxyn <3
  - emoi ❌
  - server settings ❌
  - category and channel permissions ❌
+
+## Bot:
+ - channel nuke ❌
+ - vpn and proxy blocker ❌
+ - web bot javascript captcha ❌
+
+
