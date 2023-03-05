@@ -284,9 +284,10 @@ class Tools:
                 channel = discord.utils.get(
                     guild.channels, id=int(self.Log_channel))
                 embed = discord.Embed(title='', description="""**✅ | Member verified**
-                ≡ | User: <@{0}>
-                ≡ | Address: ||{1}||
-                ≡ | Members in db: `{2}`""".format(i['userid'], i['ip'], membercount), color=5763719)
+                
+≡ | User: <@{0}>
+≡ | Address: ||{1}||
+≡ | Members in db: `{2}`""".format(i['userid'], i['ip'], membercount), color=5763719)
                 await channel.send(embed=embed)
                 role = discord.utils.get(guild.roles, name=self.Role_name)
                 try:
@@ -366,7 +367,8 @@ class Tools:
                 channel = discord.utils.get(
                     guild.channels, id=int(self.Log_channel))
                 embed = discord.Embed(title='', description=f"""**⚡️ | Backup created**
-                ≡ | Time: `backup/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S.json')}`""", color=5763719)
+                
+≡ | Time: `backup/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S.json')}`""", color=5763719)
                 await channel.send(embed=embed)
 
                 print("Backup Done")
