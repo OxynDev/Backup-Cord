@@ -5,7 +5,7 @@ Easy to setup discord bot for restoring members and backuping server
 Made By oxyn <3
 
 
-### Commands
+## Commands
 
 - `.message`
  Command to send verify message
@@ -18,7 +18,7 @@ Made By oxyn <3
 
 
 
-### To do:
+## To do:
 
 #### Server backup:
  - roles ✅
