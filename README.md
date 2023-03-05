@@ -35,5 +35,6 @@ Made By oxyn <3
  - channel nuke ❌
  - vpn and proxy blocker ❌
  - web bot javascript captcha ❌
+ - setup tutorial ❌
 
 
