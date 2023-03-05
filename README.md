@@ -15,3 +15,15 @@ Made By oxyn <3
 
 - `.bserver <2023-03-05_15-01-32.json>` 
  Command to restore server
+
+
+To do (server backup):
+ - roles ✅
+ - channels ✅
+ - categories ✅
+ - name ✅
+ - avatar ✅
+ - role permissions ✅
+ - emoi ❌
+ - server settings ❌
+ - - category and channel permissions ❌
