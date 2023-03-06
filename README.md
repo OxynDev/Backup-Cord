@@ -35,7 +35,7 @@ Features:
  - role permissions ✅
  - emoi ❌
  - server settings ❌
- - voice channel coppy ❌
+ - voice channel copy ❌
  - category and channel permissions ❌
 
 #### Bot:
