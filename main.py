@@ -9,7 +9,6 @@ import asyncio
 from dotenv import load_dotenv
 from requests.api import request
 
-# DISCORD LIBS
 import discord
 import discord.ext
 from discord.ext import commands, tasks
@@ -17,7 +16,6 @@ from discord.ext.commands import has_permissions
 from discord.utils import get
 from discord import Permissions, Embed
 
-# FLASK
 from flask import Flask, redirect, request, jsonify
 import waitress
 
@@ -222,17 +220,17 @@ class Tools:
                 server_settings = json.load(f)
                 print("Server recovery started...")
 
-                async def remove_category(ctx: commands.Context):
+                async def remove_category(ctx):
                     for category in ctx.guild.categories:
                         try: await category.delete()
                         except: pass
 
-                async def remove_channels(ctx: commands.Context):
+                async def remove_channels(ctx):
                     for channel in ctx.guild.channels:
                         try: await channel.delete()
                         except: pass
 
-                async def remove_roles(ctx: commands.Context):
+                async def remove_roles(ctx):
                     for role in ctx.guild.roles:
                         if role == ctx.guild.default_role: continue
                         else:
