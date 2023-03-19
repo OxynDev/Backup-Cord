@@ -8,7 +8,7 @@ Features:
  - Member backup
  - server backup
  
-
+install discord.py==1.7.3
 
 
 ## Commands
