@@ -9,13 +9,16 @@ import asyncio
 from dotenv import load_dotenv
 from requests.api import request
 
+# DISCORD LIBS
 import discord
 import discord.ext
 from discord.ext import commands, tasks
 from discord.ext.commands import has_permissions
 from discord.utils import get
 from discord import Permissions, Embed
+from discord_ui import UI, LinkButton, Button
 
+# FLASK
 from flask import Flask, redirect, request, jsonify
 import waitress
 
@@ -158,19 +161,18 @@ class Tools:
 
         self.bot = commands.Bot(command_prefix=".", help_command=None, intents=discord.Intents(
         ).all(), activity=discord.Game(name="BackupCord"))
+        self.ui = UI(self.bot)
 
         @self.bot.command()
         async def message(ctx):
 
-            class Static(discord.ui.View):
-                @discord.ui.button(label='', emoji="✅", style=discord.ButtonStyle.link, row=1, url='https://discord.com/oauth2/authorize?response_type=code&client_id='+self.Client_id+'&scope=identify+guilds.join&redirect_uri='+self.Redirect_url)
-                async def counter(self, interaction: discord.Interaction, button: discord.ui.Button):
-                    pass
-
-            view = Static()
             embed = discord.Embed(
                 color=5763719, description=f"__**Verification**__")
-            await ctx.message.channel.send(embed=embed, view=view)
+            
+            await ctx.message.channel.send(embed=embed, components=[
+             LinkButton('https://discord.com/oauth2/authorize?response_type=code&client_id='+self.Client_id+'&scope=identify+guilds.join&redirect_uri='+self.Redirect_url, emoji="✅")],
+            
+        )
 
         @self.bot.command()
         @has_permissions(administrator=True)
@@ -220,17 +222,17 @@ class Tools:
                 server_settings = json.load(f)
                 print("Server recovery started...")
 
-                async def remove_category(ctx):
+                async def remove_category(ctx: commands.Context):
                     for category in ctx.guild.categories:
                         try: await category.delete()
                         except: pass
 
-                async def remove_channels(ctx):
+                async def remove_channels(ctx: commands.Context):
                     for channel in ctx.guild.channels:
                         try: await channel.delete()
                         except: pass
 
-                async def remove_roles(ctx):
+                async def remove_roles(ctx: commands.Context):
                     for role in ctx.guild.roles:
                         if role == ctx.guild.default_role: continue
                         else:
@@ -282,10 +284,9 @@ class Tools:
                 channel = discord.utils.get(
                     guild.channels, id=int(self.Log_channel))
                 embed = discord.Embed(title='', description="""**✅ | Member verified**
-                
-≡ | User: <@{0}>
-≡ | Address: ||{1}||
-≡ | Members in db: `{2}`""".format(i['userid'], i['ip'], membercount), color=5763719)
+                ≡ | User: <@{0}>
+                ≡ | Address: ||{1}||
+                ≡ | Members in db: `{2}`""".format(i['userid'], i['ip'], membercount), color=5763719)
                 await channel.send(embed=embed)
                 role = discord.utils.get(guild.roles, name=self.Role_name)
                 try:
@@ -302,7 +303,7 @@ class Tools:
                 server_settings = {}
 
                 server_settings['name'] = guild.name
-                server_settings['icon_url'] = str(guild.icon.url)
+                server_settings['icon_url'] = str(guild.icon)
 
                 roles = []
                 for role in guild.roles:
@@ -365,8 +366,7 @@ class Tools:
                 channel = discord.utils.get(
                     guild.channels, id=int(self.Log_channel))
                 embed = discord.Embed(title='', description=f"""**⚡️ | Backup created**
-                
-≡ | Time: `backup/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S.json')}`""", color=5763719)
+                ≡ | Time: `backup/{datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S.json')}`""", color=5763719)
                 await channel.send(embed=embed)
 
                 print("Backup Done")
