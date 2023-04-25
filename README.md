@@ -2,6 +2,8 @@
 
 Backup Cord is a Discord member and server backup bot developed by oxyn, designed to provide an easy setup process and robust verification system to keep your server secure. With Backup Cord, you can backup your members and transfer them to other or new servers after a ban or other events. When users click the verification button on the Discord message sent by the bot, their information will be saved in the database.
 
+![Verification](https://cdn.discordapp.com/attachments/1095666948446105662/1100549958073057310/image.png)
+
 ## Features
 
 - Member backup
@@ -14,8 +16,6 @@ To install Backup Cord, you need to install discord.py version 1.7.3.
 ```bash
 pip install discord.py==1.7.3
 ```
-
-![Verification](https://cdn.discordapp.com/attachments/1095666948446105662/1100549958073057310/image.png)
 
 ## Commands
 
