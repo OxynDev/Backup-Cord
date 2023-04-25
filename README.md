@@ -15,7 +15,7 @@ To install Backup Cord, you need to install discord.py version 1.7.3.
 pip install discord.py==1.7.3
 ```
 
-[Verification](https://cdn.discordapp.com/attachments/1095666948446105662/1100549958073057310/image.png)
+!(Verification)[https://cdn.discordapp.com/attachments/1095666948446105662/1100549958073057310/image.png]
 
 ## Commands
 
