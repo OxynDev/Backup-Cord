@@ -324,16 +324,18 @@ class Tools:
                     overwrites = []
                     for channel in category.channels:
                         history = []
-                        async for message in channel.history(limit=self.Backup_message_count):
-                            history.append({
-                                "content": message.content,
-                                "timestamp": message.created_at.isoformat(),
-                                "author": {
-                                    "id": message.author.id,
-                                    "name": message.author.name,
-                                }
-                            })
-
+                        try:
+                            async for message in channel.history(limit=self.Backup_message_count):
+                                history.append({
+                                    "content": message.content,
+                                    "timestamp": message.created_at.isoformat(),
+                                    "author": {
+                                        "id": message.author.id,
+                                        "name": message.author.name,
+                                    }
+                                })
+                        except:
+                            pass
                         overwrites = []
                         for overwrite in channel.overwrites:
                             if isinstance(overwrite, discord.Role):
