@@ -1,47 +1,51 @@
 # Backup Cord
 
-Made By oxyn <3
+Backup Cord is a Discord member and server backup bot developed by oxyn, designed to provide an easy setup process and robust verification system to keep your server secure. With Backup Cord, you can backup your members and transfer them to other or new servers after a ban or other events. When users click the verification button on the Discord message sent by the bot, their information will be saved in the database.
 
-Easy to setup discord bot.
+## Features
 
-Features:
- - Member backup
- - server backup
- 
-install discord.py==1.7.3
+- Member backup
+- Server backup
 
+## Installation
+
+To install Backup Cord, you need to install discord.py version 1.7.3.
+
+```bash
+pip install discord.py==1.7.3
+```
 
 ## Commands
 
+Backup Cord provides the following commands:
+
 - `.message`
- Command to send verify message
+  - Command to send a verification message
 
-- `.bmembers <Uwu_Password>` 
- Command to restore members (write on privat chat in new server)
+- `.bmembers <Uwu_Password>`
+  - Command to restore members (send password in private chat in the new server)
 
-- `.bserver <2023-03-05_15-01-32.json>` 
- Command to restore server
+- `.bserver <2023-03-05_15-01-32.json>`
+  - Command to restore the server
 
+## To-Do List
 
+### Server Backup:
+- Roles ✅
+- Channels ✅
+- Categories ✅
+- Server Name ✅
+- Server Avatar ✅
+- Role Permissions ✅
+- Emojis ❌
+- Server Settings ❌
+- Voice Channel Copy ❌
+- Category and Channel Permissions ❌
 
-## To do:
+### Bot:
+- Channel Nuke ❌
+- VPN and Proxy Blocker ❌
+- Web Bot JavaScript Captcha ❌
+- Setup Tutorial ❌
 
-#### Server backup:
- - roles ✅
- - channels ✅
- - categories ✅
- - name ✅
- - avatar ✅
- - role permissions ✅
- - emoi ❌
- - server settings ❌
- - voice channel copy ❌
- - category and channel permissions ❌
-
-#### Bot:
- - channel nuke ❌
- - vpn and proxy blocker ❌
- - web bot javascript captcha ❌
- - setup tutorial ❌
-
-
+Note: ✅ indicates completed tasks, and ❌ indicates pending tasks.
