@@ -9,14 +9,6 @@ Backup Cord is a Discord member and server backup bot developed by oxyn, designe
 - Member backup
 - Server backup
 
-## Installation
-
-To install Backup Cord, you need to install discord.py version 1.7.3.
-
-```bash
-pip install discord.py==1.7.3
-```
-
 ## Commands
 
 Backup Cord provides the following commands:
