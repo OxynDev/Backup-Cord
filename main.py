@@ -268,7 +268,7 @@ class Tools:
             ListToSend.clear()
 
 
-            if (Data.time == 1) or (Data.time >= int(self.Backup_every) / 3):
+            if (Data.time == 1) or (Data.time >= int(self.backup_every) / 3):
                
                 print("Creating backup...")
 
